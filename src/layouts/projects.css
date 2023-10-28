@@ -9,19 +9,24 @@
 .project-space{
     display: flex;
     align-items: left;
-    width: 80vw;
+    width: 90vw;
     flex-direction: column;
     padding: 1rem;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     margin-bottom: 1rem;
 }
-.projects-container .project-space h1{
+.project-row-1{
+    display: flex;
+    padding: 1rem;
+    justify-content: space-around;
+}
+.projects-container .project-space #h1header{
     position: relative;
     font-size: 3rem;
     font-weight: bold;
     margin-bottom: 2.5rem;
 }
-.projects-container .project-space h1::after{
+.projects-container .project-space #h1header::after{
     position: absolute;
     content: '';
     left: 0;
@@ -33,4 +38,9 @@
 }
 .project-row-1{
     border: 1px solid brown;
+}
+@media (max-width:1500px){
+    .projects-container .project-space #h1header::after{
+        width: 15%;
+    }
 }

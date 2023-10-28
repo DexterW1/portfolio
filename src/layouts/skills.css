@@ -64,3 +64,30 @@
 .skills-icons i{
     font-size: 5rem;
 }
+@media (max-height:820px) {
+    .skills-icon-container{
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+        width: 55vw;
+        height: 40vh;
+    }
+    .skills-icons{
+        padding: 1rem 0;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+    .skills-icons .icon{
+        display: block;
+        margin:0;
+    }
+    .icon p{
+        text-align: center;
+    }
+    .skills-space-summary{
+        margin-bottom: .5rem;
+    }
+    .skills-space h1{
+        margin-bottom: 2rem;
+    }
+}
