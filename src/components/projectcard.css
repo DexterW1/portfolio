@@ -1,0 +1,8 @@
+.project-card-container{
+    display: flex;
+    border: 1px solid white;
+}
+.image-container img{
+    width: 5rem;
+    height: 5rem;
+}

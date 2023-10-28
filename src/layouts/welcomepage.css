@@ -1,0 +1,39 @@
+.welcome-container{
+    display: flex;
+    /* border: 10px solid green; */
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.intro{
+    /* border: 1px solid green; */
+    width: 30vw;
+    margin-bottom: 5vh;
+}
+.intro h1{
+    font-size:4rem;
+    padding-left: 1rem;
+}
+.intro #name{
+    font-size: 1.5rem;
+    color:#646cff;
+}
+.intro #summary{
+    padding-left: 1rem;
+    font-size: 1.2rem;
+}
+.intro #summary #name-emp{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.picture{
+    /* border: 1px solid pink; */
+    margin-left: 1rem;
+}
+.picture img{
+    border: 5px solid white;
+    border-radius: 50%;
+    width: 20rem;
+    height: 20rem;
+}

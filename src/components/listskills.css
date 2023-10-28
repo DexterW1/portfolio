@@ -1,0 +1,7 @@
+.skill-list-container p{
+    font-size: 1rem;
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 20px;
+    margin-right: .5rem;
+}

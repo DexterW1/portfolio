@@ -1,0 +1,36 @@
+.projects-container{
+    margin-top:10vh;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    height: 90vh;
+    /* border: 1px solid goldenrod; */
+}
+.project-space{
+    display: flex;
+    align-items: left;
+    width: 80vw;
+    flex-direction: column;
+    padding: 1rem;
+    border: 1px solid blue;
+    margin-bottom: 1rem;
+}
+.projects-container .project-space h1{
+    position: relative;
+    font-size: 3rem;
+    font-weight: bold;
+    margin-bottom: 2.5rem;
+}
+.projects-container .project-space h1::after{
+    position: absolute;
+    content: '';
+    left: 0;
+    bottom: 0px;
+    width: 13%;
+    height: 3px;
+    background: #f5c7f7;
+    border-radius: 20px;
+}
+.project-row-1{
+    border: 1px solid brown;
+}
