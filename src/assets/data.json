@@ -1,0 +1,29 @@
+{
+    "project1":{
+            "title":"Stock Viewer",
+            "summary":"Developed a dynamic stock market platform featuring NASDAQ, S&P 500, and Dow Jones indices on the main dashboard. The site offers live market news, trending symbols, and hosts a comprehensive widget for searching stocks, exploring OHLCV data, and creating custom watchlists. Utilizing React for the front end, Node.js for the backend, and integrating two diverse APIs, the platform ensures seamless data persistence, safeguarding user information even upon tab closure.",
+            "skills":["React","Node.JS","Express.JS ","RestAPI","CSS"],
+            "link":"https://stock-page-client.vercel.app",
+            "gitlink":"https://github.com/DexterW1/StockPageReactJS"
+    },
+    "project2":{
+        "title":"Weatherio",
+        "summary":"Crafted a dynamic weather application using fundamental technologies - HTML, CSS, and JavaScript. The app leverages two distinct APIs to present comprehensive weather data, including a 5-day forecast, the next 8-hour breakdown, and current weather details such as wind conditions, air quality, and more. Built entirely with front-end technologies, this project offers a user-friendly interface to retrieve and display essential weather information.",
+        "skills":["HTML","CSS","JavaScript"],
+        "link":"https://dexterw1.github.io/weatherapp2/",
+        "gitlink":"https://github.com/DexterW1/weatherapp2.git"
+    },
+    "project3":{
+        "title":"Traffic-Accident-Analytics",
+        "summary":"Contributed to a comprehensive group project analyzing 7.7 million traffic accidents spanning 2016-2022 across 49 states in the U.S. The website enables users to explore accident-prone states and cities, offering various graphs for data analysis. Specifically, developed graphs revealing the highest accident-prone city and state, and visibility levels associated with accidents. Additionally, actively involved in implementing search functionalities by location and accident management, also facilitating page pagination for efficient data display, enabling users to navigate through the segemented data.",
+        "skills":["React","Node.JS","Express.JS","RestAPI","CSS"],
+        "link":"https://github.com/DexterW1/Traffic-Accident-Analytics"
+    },
+    "project4":{
+        "title":"8 Puzzle Solver",
+        "summary":"Crafted an 8-puzzle solving program, delving into the world of search algorithms. Explored the intricacies of Uniform Cost Search, A* Misplaced, and A* Manhattan Distance, unveiling their heuristic applications. The comprehensive report showcases findings, result outputs, and the implemented code, illuminating the journey through heuristic-driven search strategies, a fundamental part of this engaging project.",
+        "skills":["C++"],
+        "link":"https://github.com/DexterW1/Eight_Puzzle"
+    }
+
+}

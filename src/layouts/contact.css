@@ -1,0 +1,97 @@
+.contact-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 89vh;
+    margin-top: 10vh;
+    /* background: url(../images/spacecontact.jpg); */
+    /* background-size: contain cover; */
+    /* border: 1px solid gold; */
+}
+.form-container{
+    display: flex;
+    /* padding: 2rem; */
+    width: 50vw;
+    width: 30vw;
+    height: 60vh;
+    border: 1px solid rgba(255,255,255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(20px);
+}
+.form-container h1{
+    text-align: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+.input-box label{
+    font-size: 1.3rem;
+    color: var(--purp);
+}
+.input-box input{
+    font-family: inherit;
+    font-size: 1.2rem;
+    color: whitesmoke;
+    font-weight: 600;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-bottom: 1rem;
+    border-bottom: 2px solid var(--purp);
+    padding: 0 0 .5rem .3rem;
+  }
+.message-box{
+    font-size: 1.3rem;
+    display: flex;
+    color: var(--purp);
+    flex-direction: column;
+}
+.message-box label{
+    margin-bottom: .7rem;
+}
+.message-box textarea{
+    font-size: 1rem;
+    padding: 1rem;
+    width: 100%;
+    height: 20vh;
+    resize: none;
+    border-radius: 20px;
+    border-style: none;
+    outline: none;
+    margin-bottom: 1rem;
+}
+.button-box{
+    display: flex;
+    justify-content: center;
+}
+.submitbtn{
+    cursor: pointer;
+    font-size: 1rem;
+    background-color: var(--purp);
+    height: 4vh;
+    width: 80%;
+    border: none;
+    border-radius: 10px;
+}
+.submitbtn:hover{
+    background-color: #535bf2;;
+}
+.form-1{
+    /* width: 40vw; */
+    width: 100%;
+    padding: 2rem;
+}
+.form-picture{
+    display: flex;
+    overflow: hidden;
+}
+.form-picture img{
+    width: 100%;
+    overflow: hidden;
+    border-bottom-right-radius: 20px;
+    border-top-right-radius: 20px;
+}

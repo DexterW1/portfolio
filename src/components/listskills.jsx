@@ -1,13 +1,10 @@
-import './listskills.css'
-
+import './listskills.css';
 export default function listskills(props) {
   return (
-    <>
-        <div className='skill-list-container'>
-            {props.listskills.forEach(element => {
-                <p>{element}</p>
-            })}
-        </div>
-    </>
-  )
+    <div className='skill-list-container'>
+      {props.listskills.map(element => (
+        <p key={element}>{element}</p>
+      ))}
+    </div>
+  );
 }

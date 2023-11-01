@@ -50,7 +50,7 @@ export default function skills() {
                         </div>
                         <div className="icon icon-visualstudio">
                             <i className='devicon-visualstudio-plain colored'></i>
-                            <p>VS Code</p>
+                            <p>Visual Studio Code</p>
                         </div>
                     </div>
                 </div>

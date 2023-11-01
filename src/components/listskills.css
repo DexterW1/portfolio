@@ -1,7 +1,28 @@
+.skill-list-container{
+    display: flex;
+    padding-left: 1rem;
+}
+
 .skill-list-container p{
     font-size: 1rem;
     border: 1px solid white;
-    padding: 1rem;
-    border-radius: 20px;
+    padding: .5rem;
+    border-radius: 15px;
+    margin-top: .5rem;
     margin-right: .5rem;
+}
+.skill-list-container a{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 1px solid whitesmoke;
+    padding: .3rem;
+    border-radius: 20px;
+    text-decoration: none;
+    margin-left: 3rem;
+}
+.skill-list-container a img{
+    object-fit: contain;
+    width: 2rem;
+    margin-right: .3rem;
 }

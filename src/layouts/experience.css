@@ -1,0 +1,22 @@
+.experience-container{
+    /* padding: 10rem; */
+    margin-top: 9vh;
+    height: 88vh;
+    width: 100%;
+    border: 1px solid teal;
+}
+.experience-header{
+    width: 100%;
+    text-align: center;
+    border: 1px solid gold;
+}
+.exp-card-container{
+
+    display: flex;
+    padding: 1rem;
+    width: 100%;
+    border: 1px solid salmon;
+}
+.experience-card{
+    display: flex;
+}
