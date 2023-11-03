@@ -2,7 +2,7 @@
   "name": "portfolio",
   "private": true,
   "version": "0.0.0",
-  "homepage": "https://DexterW1.github.io/react-gh-pages",
+  "homepage": "https://DexterW1.github.io/portfolio",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
