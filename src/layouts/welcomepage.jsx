@@ -2,6 +2,7 @@
 import "./welcomepage.css";
 import img1 from "../images/tempphoto.jpg";
 import catImg from "../images/catstronaut.png";
+import sunImg from "../images/sun.png";
 export default function welcomepage() {
   return (
     <>
@@ -21,6 +22,9 @@ export default function welcomepage() {
         </div>
         <div className="cat-container">
           <img src={catImg} alt="" />
+        </div>
+        <div className="sun-container">
+          <img src={sunImg} alt="" />
         </div>
       </div>
     </>

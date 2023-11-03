@@ -19,6 +19,18 @@
   rotate: 45deg;
   transition: transform 0.2s ease-in-out;
 }
+.sun-container {
+  position: absolute;
+  z-index: 0;
+  top: 10vh;
+  left: 79vw;
+}
+.sun-container img {
+  width: 35%;
+  backdrop-filter: saturate(3);
+  border-radius: 50%;
+  box-shadow: 0px 0px 50px orange;
+}
 .intro {
   /* border: 1px solid green; */
   width: 30vw;

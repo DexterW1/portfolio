@@ -7,12 +7,22 @@
   /* border: 1px solid purple; */
 }
 .skills-space {
+  position: relative;
   display: flex;
   align-items: center;
   /* margin-top: 1rem; */
   width: 80vw;
   flex-direction: column;
   /* border: 1px solid blue; */
+}
+.planet-container {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+.planet-container img {
+  width: 20%;
 }
 .skills-space h1 {
   position: relative;

@@ -2,6 +2,7 @@ import { useRef, useState } from "react";
 import "./contact.css";
 import emailjs from "@emailjs/browser";
 import satImg from "../assets/satellite.svg";
+import moonImg from "../images/moon.png";
 export default function Contact() {
   const [conf, setConf] = useState(false);
   const form = useRef();
@@ -34,6 +35,9 @@ export default function Contact() {
       <div id="contact" className="contact-container">
         <div className="sat-container">
           <img src={satImg} alt="" />
+        </div>
+        <div className="moon-container">
+          <img src={moonImg} alt="" />
         </div>
         <div className="form-container">
           <div className="form-1">

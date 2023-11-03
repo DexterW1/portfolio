@@ -19,6 +19,15 @@
   width: 45%;
   transform: rotate(280deg);
 }
+.moon-container {
+  position: absolute;
+  top: -30vh;
+  right: 5vw;
+  z-index: 0;
+}
+.moon-container img {
+  width: 100%;
+}
 .form-container {
   display: flex;
   width: 27vw;
@@ -135,5 +144,11 @@ form {
   }
   .sat-container img {
     width: 32%;
+  }
+  .moon-container {
+    top: -13vh;
+  }
+  .moon-container img {
+    width: 80%;
   }
 }

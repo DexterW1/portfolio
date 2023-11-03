@@ -1,9 +1,13 @@
 import "./skills.css";
+import planetImg from "../images/planet.png";
 export default function skills() {
   return (
     <>
       <div id="skills" className="skills-container">
         <div className="skills-space">
+          <div className="planet-container">
+            <img src={planetImg} alt="" />
+          </div>
           <h1>Skills & Frameworks</h1>
           <div className="skills-space-summary">
             <p>
