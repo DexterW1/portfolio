@@ -1,28 +1,32 @@
 // import { useState } from 'react'
-import './App.css'
-import TopBarNav from './layouts/topbarnav'
-import WelcomePage from './layouts/welcomepage';
-import Skills from './layouts/skills';
-import Projects from './layouts/projects';
-import Contact from './layouts/contact';
+import "./App.css";
+import TopBarNav from "./layouts/topbarnav";
+import WelcomePage from "./layouts/welcomepage";
+import Skills from "./layouts/skills";
+import Projects from "./layouts/projects";
+import Experience from "./layouts/experience";
+import Contact from "./layouts/contact";
 function App() {
-  function scrollToSection(id){
+  function scrollToSection(id) {
     const section = document.getElementById(id);
-    if(section){
+    if (section) {
       setTimeout(() => {
-        section.scrollIntoView({ behavior: 'smooth', block: 'end' });
+        section.scrollIntoView({ behavior: "smooth", block: "end" });
       }, 1);
     }
   }
   return (
     <>
-        <TopBarNav scrollToSection={scrollToSection}/>
-        <WelcomePage/>
-        <Skills/>
-        <Projects/>
-        <Contact/>
+      <div className="nav-header-top">
+        <TopBarNav scrollToSection={scrollToSection} />
+      </div>
+      <WelcomePage />
+      <Skills />
+      <Projects />
+      <Experience />
+      <Contact />
     </>
-  )
+  );
 }
 
-export default App
+export default App;

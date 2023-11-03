@@ -1,22 +1,66 @@
-.experience-container{
-    /* padding: 10rem; */
-    margin-top: 9vh;
-    height: 88vh;
-    width: 100%;
-    border: 1px solid teal;
+.experience-container {
+  font-size: 1.2rem;
+  margin-top: 10vh;
+  height: 90vh;
+  width: 100%;
+  /* border: 1px solid teal; */
 }
-.experience-header{
-    width: 100%;
-    text-align: center;
-    border: 1px solid gold;
+.experience-header {
+  width: 100%;
+  text-align: center;
+  /* border: 1px solid gold; */
 }
-.exp-card-container{
+.work-container {
+  display: flex;
+  /* border: 1px solid gold; */
+  margin-top: 0.5rem;
+  padding: 2rem;
+  justify-content: space-evenly;
+}
+.exp-card-container {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  width: 30vw;
+  max-height: 100%;
+  border: 2px solid rgba(255, 255, 255, 0.5);
+  border-radius: 20px;
+  backdrop-filter: blur(3px);
+}
+.exp-card-container h1 {
+  font-size: 1.7rem;
+  border-bottom: 2px solid salmon;
+}
+.experience-header h1 {
+  position: relative;
+  font-size: 3rem;
+}
+.experience-header h1::after {
+  position: absolute;
+  content: "";
+  left: 35%;
+  bottom: -6px;
+  background-color: #e0ffcd;
+  width: 30%;
+  height: 3px;
+  border-radius: 20px;
+}
+.exp-card-container p {
+  padding-bottom: 0.8rem;
+}
+.exp-card-container ul {
+  padding-left: 2rem;
+}
 
-    display: flex;
-    padding: 1rem;
-    width: 100%;
-    border: 1px solid salmon;
-}
-.experience-card{
-    display: flex;
+@media (max-width: 1500px), (max-height: 860px) {
+  .experience-container {
+    font-size: 1rem;
+  }
+  .exp-card-container {
+    height: 62vh;
+  }
+  .experience-header h1::after {
+    left: 30%;
+    width: 40%;
+  }
 }

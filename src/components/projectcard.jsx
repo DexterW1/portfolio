@@ -12,7 +12,7 @@ export default function projectcard(props) {
             <div className='project-summary-container'>
                 <div className="project-title">
                     <a target='_blank' rel='noopener noreferrer' href={props.link}>{props.title}<img src={tabImg} alt="" /></a>
-                    {props.git==='t'?<a target='_blank' href={props.gitlink} rel='noopener noreferrer'><img src={githubImage} alt="" />Github</a>:null}
+                    {props.git!=undefined?<a id='githublink' target='_blank' href={props.gitlink} rel='noopener noreferrer'><img src={githubImage} alt="" />Github</a>:null}
                 </div>
                 <div className="project-description">
                     <p>{props.summary}</p>
