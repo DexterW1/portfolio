@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./projects.css";
+import marsImg from "../images/redplanet.png";
 import ProjectLoad from "../components/projectcard";
 import stockImage from "../images/stock-exchange-app.png";
 import weatherImage from "../images/logo.png";
@@ -62,6 +63,9 @@ export default function Projects() {
   return (
     <>
       <div id="project" className="projects-container">
+        <div className="mars-container">
+          <img src={marsImg} alt="" />
+        </div>
         <div className="project-space">
           <h1 id="h1header">Projects</h1>
           <div className="show project-row-1">
