@@ -87,6 +87,7 @@
 @media (max-width: 1500px), (max-height: 860px) {
   .project-row-1 {
     margin-top: 10vh;
+    height: 55vh;
   }
   .projects-container .project-space #h1header::after {
     width: 15%;
