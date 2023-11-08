@@ -112,6 +112,9 @@ form {
   border-bottom-right-radius: 20px;
   border-top-right-radius: 20px;
 }
+.message-box textarea {
+  background-color: #3b3b3b;
+}
 @keyframes fadeIn {
   from {
     opacity: 0;
