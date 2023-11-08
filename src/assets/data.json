@@ -10,8 +10,8 @@
     "title": "Weatherio",
     "summary": "Crafted a dynamic weather application using fundamental technologies - HTML, CSS, and JavaScript. The app leverages two distinct APIs to present comprehensive weather data, including a 5-day forecast, the next 8-hour breakdown, and current weather details such as wind conditions, air quality, and more. Built entirely with front-end technologies, this project offers a user-friendly interface to retrieve and display essential weather information.",
     "skills": ["HTML", "CSS", "JavaScript"],
-    "link": "https://dexterw1.github.io/weatherapp2/",
-    "gitlink": "https://github.com/DexterW1/weatherapp2.git"
+    "link": "https://dexterw1.github.io/Weatherio/",
+    "gitlink": "https://github.com/DexterW1/Weatherio"
   },
   "project3": {
     "title": "Traffic-Accident-Analytics",
