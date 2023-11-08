@@ -11,18 +11,3 @@
     margin-top: .5rem;
     margin-right: .5rem;
 }
-.skill-list-container a{
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-    border: 1px solid whitesmoke;
-    padding: .3rem;
-    border-radius: 20px;
-    text-decoration: none;
-    margin-left: 3rem;
-}
-.skill-list-container a img{
-    object-fit: contain;
-    width: 2rem;
-    margin-right: .3rem;
-}

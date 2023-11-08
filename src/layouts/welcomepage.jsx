@@ -3,6 +3,7 @@ import "./welcomepage.css";
 import img1 from "../images/tempphoto.jpg";
 import catImg from "../images/catstronaut.png";
 import sunImg from "../images/sun.png";
+import profileImg from "../images/profilepic2.png";
 export default function welcomepage() {
   return (
     <>
@@ -18,7 +19,7 @@ export default function welcomepage() {
           </p>
         </div>
         <div className="picture">
-          <img src={img1} alt="" />
+          <img src={profileImg} alt="" />
         </div>
         <div className="cat-container">
           <img src={catImg} alt="" />
